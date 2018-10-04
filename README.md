@@ -13,6 +13,10 @@ to validate accounts by email, domain or group.
 
 ![OAuth2 Proxy Architecture](https://cloud.githubusercontent.com/assets/45028/8027702/bd040b7a-0d6a-11e5-85b9-f8d953d04f39.png)
 
+## Docker
+
+Build your own image using `Dockerfile` in the repo or use `alikhil/oauth2_proxy:2.2.2 `
+
 ## Installation
 
 1. Download [Prebuilt Binary](https://github.com/bitly/oauth2_proxy/releases) (current release is `v2.2`) or build with `$ go get github.com/bitly/oauth2_proxy` which will put the binary in `$GOROOT/bin`
